@@ -11,7 +11,6 @@
 const headerContainer = document.querySelector('.header-container')
 headerContainer.appendChild(Header())
 function Header() {
-    
     const header = document.createElement('div')
     const date = document.createElement('span')
     const title = document.createElement('h1')
